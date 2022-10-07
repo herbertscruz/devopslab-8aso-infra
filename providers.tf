@@ -2,7 +2,7 @@ terraform {
   required_providers {
     google = {
       source = "hashicorp/google"
-      version = "4.22.0"
+      version = "4.39.0"
     }
   }
 }
@@ -12,7 +12,7 @@ provider "google" {
 
   credentials = file("/home/herbertsfortuna/gcpkey.json")
 
-  project = "teste-351601"
+  project = "lab-devops-cloud-8aso-herberts"
   region  = "us-west1"
   zone    = "us-west1-b"
 }
